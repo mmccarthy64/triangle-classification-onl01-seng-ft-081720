@@ -8,7 +8,11 @@ class Triangle
       rescue TriangleError => error
 
       end
-    
+      
+    end
+  end
+  
+  def kind
       if side3 = side2 = side1
         :equilateral
       elsif side1 = side2 != side3 || side1 != side2 = side3 || side1 = side3 != side2
@@ -16,12 +20,6 @@ class Triangle
       elsif side1 != side2 != side3
         :scalene
       end
-      
-    end
-  end
-  
-  def kind
-    
   end
   
   class TriangleError < StandardError
