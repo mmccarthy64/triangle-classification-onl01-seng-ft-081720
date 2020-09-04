@@ -2,6 +2,12 @@ class Triangle
   # write code here
   
   def initialize(side1, side2, side3)
+    if side1, side2, side3 < 0
+      begin
+        raise TriangleError
+      rescue TriangleError => error
+
+      end
     
       if side3 = side2 = side1
         :equilateral
@@ -10,6 +16,8 @@ class Triangle
       elsif side1 != side2 != side3
         :scalene
       end
+      
+    end
   end
   
   def kind
