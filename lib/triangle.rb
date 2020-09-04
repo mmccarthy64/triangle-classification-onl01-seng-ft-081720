@@ -6,7 +6,7 @@ class Triangle
       begin
         raise TriangleError
       rescue TriangleError => error
-      
+      error.
       end
     
       if side3 = side2 = side1
