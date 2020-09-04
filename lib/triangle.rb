@@ -6,7 +6,8 @@ class Triangle
       :equilateral
     elsif side1 = side2 != side3 || side1 != side2 = side3 || side1 = side3 != side2
       :isosceles
-    elsif 
+    elsif side1 != side2 != side3
+      
   end
   
   def kind
