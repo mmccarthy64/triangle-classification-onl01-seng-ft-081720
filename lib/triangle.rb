@@ -6,8 +6,6 @@ class Triangle
       begin
         raise TriangleError
       rescue TriangleError => error
-
-      end
     
       if side3 = side2 = side1
         :equilateral
