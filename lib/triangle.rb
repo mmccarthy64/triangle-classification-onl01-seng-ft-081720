@@ -9,14 +9,6 @@ class Triangle
   end
   
   def kind
-    if side1, side2, side3 < 0
-      begin
-        raise TriangleError
-      rescue TriangleError => error
-
-      end
-      
-    end
     
     if side3 = side2 = side1
       :equilateral
