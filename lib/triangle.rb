@@ -1,7 +1,7 @@
 class Triangle
   # write code here
   
-  def initialize()
+  def initialize(side1, side2, side3)
     
   end
   
@@ -9,7 +9,7 @@ class Triangle
     
   end
   
-  class TriangleError
+  class TriangleError < StandardError
     
   end
 end
