@@ -2,7 +2,7 @@ class Triangle
   # write code here
   
   def initialize(side1, side2, side3)
-    if 
+    if side1, side2, side3 < 0
     
       if side3 = side2 = side1
         :equilateral
